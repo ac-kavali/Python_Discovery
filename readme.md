@@ -27,7 +27,7 @@ When you run a program:
 
 Both `python` and `python3` are themselves programs - they are executable files that contain instructions for interpreting and running your Python code. When you execute `python script.py`, the Python interpreter program is loaded into RAM, and it then reads your `script.py` file and executes your Python code.
 
-### The Interpretation Process
+### Python Virtual Machine
 The Python Virtual Machine (PVM) is the runtime engine that executes your Python code. It acts as an abstraction layer between your code and the underlying computer hardware, enabling Python's portability across different platforms
 
 ### The Interpretation Process
