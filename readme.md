@@ -30,7 +30,9 @@ Both `python` and `python3` are themselves programs - they are executable files 
 ### Python Virtual Machine
 The Python Virtual Machine (PVM) is the runtime engine that executes your Python code. It acts as an abstraction layer between your code and the underlying computer hardware, enabling Python's portability across different platforms
 the interpreter allready have binary instruction, not like c JIT compilers, they are predefined 
-and ready to be executed indirectly by the hardware.
+and ready to be executed indirectly by the hardware. 
+
+PVM is a code written by c.
 
 ### Byte Code
 In Python, bytecode is a low-level set of instructions that is portable across different platforms, which means it can be executed on any machine that has a compatible CPython interpreter.
