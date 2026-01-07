@@ -32,6 +32,9 @@ The Python Virtual Machine (PVM) is the runtime engine that executes your Python
 the interpreter allready have binary instruction, not like c JIT compilers, they are predefined 
 and ready to be executed indirectly by the hardware.
 
+### Byte Code
+In Python, bytecode is a low-level set of instructions that is portable across different platforms, which means it can be executed on any machine that has a compatible CPython interpreter.
+
 ### The Interpretation Process
 
 Here's what happens when you run a Python script:
