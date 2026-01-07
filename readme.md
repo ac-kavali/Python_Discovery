@@ -59,6 +59,7 @@ This differs from compiled languages like C or C++, where:
 - **Easier debugging**: Errors are caught and reported as the code runs
 - **Portability**: The same Python source code can run on different platforms as long as a Python interpreter is available
 - **Dynamic typing**: Variable types are determined at runtime, offering flexibility
+- The instructions (operations) are already implemented and compiled inside the Python interpreter binary (written in C).
 
 ### Trade-offs
 
