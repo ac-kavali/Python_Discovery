@@ -26,12 +26,14 @@ When you run a program:
 3. RAM provides fast, temporary storage that allows the CPU to quickly access the instructions and data it needs
 
 Both `python` and `python3` are themselves programs - they are executable files that contain instructions for interpreting and running your Python code. When you execute `python script.py`, the Python interpreter program is loaded into RAM, and it then reads your `script.py` file and executes your Python code.
+
 ---
 ### Python Virtual Machine
 The Pvm resposible to decode the Bytecode at run time and execute it instruction by instruction.
 PVM code is written by c.
 **Python bytecode is a set of instructions for the Python Virtual Machine.
 The PVM understands these instructions and interprets them by translating their meaning into real CPU operations.
+
 ---
 ### Byte Code
 In Python, bytecode is a low-level set of instructions that is portable across different platforms, which means it can be executed on any machine that has a compatible CPython interpreter.
